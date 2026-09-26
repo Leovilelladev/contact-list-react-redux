@@ -136,7 +136,7 @@ function App() {
           <Topbar><Breadcrumb>Contatos</Breadcrumb><TopbarActions><HelpButton>?</HelpButton><TopAvatar>LV</TopAvatar></TopbarActions></Topbar>
           <ContentWrap id="contatos">
             <HeroRow>
-              <div><Eyebrow><span /> CENTRAL DE CONTATOS</Eyebrow><PageTitle>Seus contatos,<br /><span>sem complicação.</span></PageTitle><PageSubtitle>Um lugar simples para guardar as pessoas que fazem<br className="desktopBreak" /> parte da sua rotina.</PageSubtitle></div>
+              <div><Eyebrow>CENTRAL DE CONTATOS</Eyebrow><PageTitle>Seus contatos,<br /><span>sem complicação.</span></PageTitle><PageSubtitle>Um lugar simples para guardar as pessoas que fazem<br className="desktopBreak" /> parte da sua rotina.</PageSubtitle></div>
               <HeroOrb aria-hidden="true"><span>✦</span></HeroOrb>
             </HeroRow>
 
@@ -202,7 +202,7 @@ const HelpButton = styled.button`width: 22px; height: 22px; padding: 0; border: 
 const TopAvatar = styled.div`width: 29px; height: 29px; display: grid; place-items: center; color: #6358c9; background: #e8e5ff; border-radius: 50%; font-size: 9px; font-weight: 800;`
 const ContentWrap = styled.div`width: min(1040px, calc(100% - 11.2vw)); margin: 0 auto; padding: 58px 0 35px; @media (max-width: 900px) { width: calc(100% - 48px); padding-top: 38px; }`
 const HeroRow = styled.div`position: relative; display: flex; justify-content: space-between; align-items: flex-start;`
-const Eyebrow = styled.div`display: flex; align-items: center; gap: 8px; color: #9b9db0; font-size: 10px; font-weight: 800; letter-spacing: 1.35px; span { width: 20px; height: 2px; background: #8375ec; border-radius: 4px; }`
+const Eyebrow = styled.div`display: flex; align-items: center; color: #9b9db0; font-size: 10px; font-weight: 800; letter-spacing: 1.35px;`
 const PageTitle = styled.h1`margin: 15px 0 11px; color: #252743; font-size: clamp(34px, 4vw, 53px); line-height: .99; letter-spacing: -2.6px; font-weight: 780; span { color: #7164df; }`
 const PageSubtitle = styled.p`color: #9194a8; font-size: 13px; line-height: 1.65;`
 const HeroOrb = styled.div`width: 92px; height: 92px; margin: 9px 5% 0 0; display: grid; place-items: center; border-radius: 50%; background: radial-gradient(circle at 33% 30%, #faf9ff 0 15%, #dfdbff 16% 35%, #978af1 75%, #7668df 100%); box-shadow: inset -10px -12px 20px rgba(85, 75, 190, .2), 0 17px 25px rgba(105, 92, 219, .17); transform: rotate(-16deg); color: #fff; font-size: 20px; text-shadow: 0 2px 4px rgba(80, 69, 181, .25); @media (max-width: 650px) { width: 55px; height: 55px; margin-right: 0; font-size: 14px; }`
