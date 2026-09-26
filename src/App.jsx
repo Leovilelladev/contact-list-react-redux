@@ -133,7 +133,7 @@ function App() {
 
         <MainContent>
           <MobileHeader><Brand><BrandMark><CircleUserRound size={20} /></BrandMark><BrandName>orbit<span>.</span></BrandName></Brand><Menu size={21} /></MobileHeader>
-          <Topbar><Breadcrumb>Workspace <span>/</span> Contatos</Breadcrumb><TopbarActions><HelpButton>?</HelpButton><TopAvatar>LV</TopAvatar></TopbarActions></Topbar>
+          <Topbar><Breadcrumb>Contatos</Breadcrumb><TopbarActions><HelpButton>?</HelpButton><TopAvatar>LV</TopAvatar></TopbarActions></Topbar>
           <ContentWrap id="contatos">
             <HeroRow>
               <div><Eyebrow><span /> CENTRAL DE CONTATOS</Eyebrow><PageTitle>Seus contatos,<br /><span>sem complicação.</span></PageTitle><PageSubtitle>Um lugar simples para guardar as pessoas que fazem<br className="desktopBreak" /> parte da sua rotina.</PageSubtitle></div>
