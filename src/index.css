@@ -1,0 +1,5 @@
+#root { min-height: 100vh; }
+
+@media (max-width: 900px) {
+  .desktopBreak { display: none; }
+}
